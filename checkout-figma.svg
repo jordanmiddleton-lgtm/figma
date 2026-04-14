@@ -1,0 +1,360 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1820" height="1500" viewBox="0 0 1820 1500">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap');
+      text { font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; }
+    </style>
+    <rect id="input" width="100%" height="44" rx="6" fill="#fff" stroke="#D1D5DB" stroke-width="1"/>
+    <clipPath id="clip-desktop"><rect width="1280" height="1440" rx="8"/></clipPath>
+    <clipPath id="clip-mobile"><rect width="390" height="1440" rx="8"/></clipPath>
+  </defs>
+
+  <!-- ============================================ -->
+  <!-- DESKTOP FRAME — 1280 x 1440                  -->
+  <!-- ============================================ -->
+  <g id="Desktop-Checkout-1280" transform="translate(0,0)">
+    <rect width="1280" height="1440" rx="8" fill="#F7F7F5"/>
+
+    <!-- Header -->
+    <g id="Header">
+      <rect width="1280" height="64" fill="#FFFFFF"/>
+      <line x1="0" y1="64" x2="1280" y2="64" stroke="#E5E5E5"/>
+      <text x="64" y="39" font-size="14" font-weight="700" letter-spacing="2" fill="#1A1A1A">NORTH&amp;CO</text>
+      <!-- Lock icon -->
+      <g transform="translate(1100,24)" fill="none" stroke="#6B7280" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="0" y="6" width="12" height="8" rx="1.5"/>
+        <path d="M2.5 6V4a3.5 3.5 0 0 1 7 0v2"/>
+      </g>
+      <text x="1118" y="37" font-size="12" fill="#6B7280">Secure Checkout</text>
+    </g>
+
+    <!-- Stepper -->
+    <g id="Stepper" transform="translate(64,88)">
+      <!-- Step 1 - Complete -->
+      <circle cx="12" cy="12" r="12" fill="#16A34A"/>
+      <text x="12" y="16" font-size="11" font-weight="600" fill="#fff" text-anchor="middle">1</text>
+      <text x="32" y="16" font-size="13" fill="#6B7280">Cart</text>
+      <!-- Connector -->
+      <line x1="72" y1="12" x2="104" y2="12" stroke="#D1D5DB"/>
+      <!-- Step 2 - Active -->
+      <circle cx="120" cy="12" r="12" fill="#111111"/>
+      <text x="120" y="16" font-size="11" font-weight="600" fill="#fff" text-anchor="middle">2</text>
+      <text x="140" y="16" font-size="13" font-weight="600" fill="#1A1A1A">Information</text>
+      <!-- Connector -->
+      <line x1="222" y1="12" x2="254" y2="12" stroke="#D1D5DB"/>
+      <!-- Step 3 -->
+      <circle cx="270" cy="12" r="12" fill="none" stroke="#D1D5DB"/>
+      <text x="270" y="16" font-size="11" font-weight="600" fill="#6B7280" text-anchor="middle">3</text>
+      <text x="290" y="16" font-size="13" fill="#6B7280">Payment</text>
+      <!-- Connector -->
+      <line x1="358" y1="12" x2="390" y2="12" stroke="#D1D5DB"/>
+      <!-- Step 4 -->
+      <circle cx="406" cy="12" r="12" fill="none" stroke="#D1D5DB"/>
+      <text x="406" y="16" font-size="11" font-weight="600" fill="#6B7280" text-anchor="middle">4</text>
+      <text x="426" y="16" font-size="13" fill="#6B7280">Review</text>
+    </g>
+
+    <!-- ===== Form Column ===== -->
+    <g id="Form-Column" transform="translate(64,136)">
+
+      <!-- Contact Card -->
+      <g id="Card-Contact">
+        <rect width="680" height="150" rx="10" fill="#FFFFFF" stroke="#E5E5E5"/>
+        <text x="20" y="36" font-size="15" font-weight="600" fill="#1A1A1A">Contact</text>
+        <!-- Email -->
+        <text x="20" y="66" font-size="12" font-weight="500" fill="#1A1A1A">Email</text>
+        <rect x="20" y="74" width="640" height="44" rx="6" fill="#FFFFFF" stroke="#D1D5DB"/>
+        <text x="32" y="101" font-size="14" fill="#9CA3AF">you@example.com</text>
+        <!-- Checkbox -->
+        <rect x="20" y="128" width="14" height="14" rx="3" fill="#111111"/>
+        <polyline points="23,135 26,138 31,132" fill="none" stroke="#fff" stroke-width="1.5"/>
+        <text x="42" y="140" font-size="13" fill="#6B7280">Email me with news and offers</text>
+      </g>
+
+      <!-- Shipping Address Card -->
+      <g id="Card-Shipping-Address" transform="translate(0,170)">
+        <rect width="680" height="400" rx="10" fill="#FFFFFF" stroke="#E5E5E5"/>
+        <text x="20" y="36" font-size="15" font-weight="600" fill="#1A1A1A">Shipping address</text>
+        <!-- First / Last row -->
+        <text x="20" y="66" font-size="12" font-weight="500" fill="#1A1A1A">First name</text>
+        <rect x="20" y="74" width="312" height="44" rx="6" fill="#FFFFFF" stroke="#D1D5DB"/>
+        <text x="348" y="66" font-size="12" font-weight="500" fill="#1A1A1A">Last name</text>
+        <rect x="348" y="74" width="312" height="44" rx="6" fill="#FFFFFF" stroke="#D1D5DB"/>
+        <!-- Address -->
+        <text x="20" y="140" font-size="12" font-weight="500" fill="#1A1A1A">Address</text>
+        <rect x="20" y="148" width="640" height="44" rx="6" fill="#FFFFFF" stroke="#D1D5DB"/>
+        <!-- Apt -->
+        <text x="20" y="214" font-size="12" font-weight="500" fill="#1A1A1A">Apartment, suite, etc. <tspan fill="#6B7280" font-weight="400">(optional)</tspan></text>
+        <rect x="20" y="222" width="640" height="44" rx="6" fill="#FFFFFF" stroke="#D1D5DB"/>
+        <!-- City / State / ZIP row -->
+        <text x="20" y="288" font-size="12" font-weight="500" fill="#1A1A1A">City</text>
+        <rect x="20" y="296" width="300" height="44" rx="6" fill="#FFFFFF" stroke="#D1D5DB"/>
+        <text x="336" y="288" font-size="12" font-weight="500" fill="#1A1A1A">State</text>
+        <rect x="336" y="296" width="160" height="44" rx="6" fill="#FFFFFF" stroke="#D1D5DB"/>
+        <text x="348" y="323" font-size="14" fill="#9CA3AF">Select</text>
+        <text x="512" y="288" font-size="12" font-weight="500" fill="#1A1A1A">ZIP</text>
+        <rect x="512" y="296" width="148" height="44" rx="6" fill="#FFFFFF" stroke="#D1D5DB"/>
+        <!-- Phone -->
+        <text x="20" y="362" font-size="12" font-weight="500" fill="#1A1A1A">Phone <tspan fill="#6B7280" font-weight="400">(optional)</tspan></text>
+        <rect x="20" y="370" width="640" height="44" rx="6" fill="#FFFFFF" stroke="#D1D5DB"/>
+      </g>
+
+      <!-- Shipping Method Card -->
+      <g id="Card-Shipping-Method" transform="translate(0,590)">
+        <rect width="680" height="210" rx="10" fill="#FFFFFF" stroke="#E5E5E5"/>
+        <text x="20" y="36" font-size="15" font-weight="600" fill="#1A1A1A">Shipping method</text>
+        <!-- Option 1 - selected -->
+        <rect x="20" y="50" width="640" height="48" rx="6" fill="#FAFAFA" stroke="#111111"/>
+        <circle cx="44" cy="74" r="7" fill="none" stroke="#111111" stroke-width="1.5"/>
+        <circle cx="44" cy="74" r="4" fill="#111111"/>
+        <text x="64" y="78" font-size="14" fill="#1A1A1A">Standard · 3–5 business days</text>
+        <text x="620" y="78" font-size="14" fill="#6B7280" text-anchor="end">Free</text>
+        <!-- Option 2 -->
+        <rect x="20" y="108" width="640" height="48" rx="6" fill="#FFFFFF" stroke="#D1D5DB"/>
+        <circle cx="44" cy="132" r="7" fill="none" stroke="#D1D5DB" stroke-width="1.5"/>
+        <text x="64" y="136" font-size="14" fill="#1A1A1A">Express · 2 business days</text>
+        <text x="620" y="136" font-size="14" fill="#6B7280" text-anchor="end">$12.00</text>
+        <!-- Option 3 -->
+        <rect x="20" y="166" width="640" height="48" rx="6" fill="#FFFFFF" stroke="#D1D5DB"/>
+        <circle cx="44" cy="190" r="7" fill="none" stroke="#D1D5DB" stroke-width="1.5"/>
+        <text x="64" y="194" font-size="14" fill="#1A1A1A">Overnight · Next business day</text>
+        <text x="620" y="194" font-size="14" fill="#6B7280" text-anchor="end">$24.00</text>
+      </g>
+
+      <!-- Payment Card -->
+      <g id="Card-Payment" transform="translate(0,820)">
+        <rect width="680" height="290" rx="10" fill="#FFFFFF" stroke="#E5E5E5"/>
+        <text x="20" y="36" font-size="15" font-weight="600" fill="#1A1A1A">Payment</text>
+        <text x="20" y="56" font-size="12" fill="#6B7280">All transactions are secure and encrypted.</text>
+        <!-- Card number -->
+        <text x="20" y="84" font-size="12" font-weight="500" fill="#1A1A1A">Card number</text>
+        <rect x="20" y="92" width="640" height="44" rx="6" fill="#FFFFFF" stroke="#D1D5DB"/>
+        <text x="32" y="119" font-size="14" fill="#9CA3AF">1234 5678 9012 3456</text>
+        <!-- Exp / CVC row -->
+        <text x="20" y="158" font-size="12" font-weight="500" fill="#1A1A1A">Expiration (MM/YY)</text>
+        <rect x="20" y="166" width="312" height="44" rx="6" fill="#FFFFFF" stroke="#D1D5DB"/>
+        <text x="32" y="193" font-size="14" fill="#9CA3AF">MM/YY</text>
+        <text x="348" y="158" font-size="12" font-weight="500" fill="#1A1A1A">Security code</text>
+        <rect x="348" y="166" width="312" height="44" rx="6" fill="#FFFFFF" stroke="#D1D5DB"/>
+        <text x="360" y="193" font-size="14" fill="#9CA3AF">CVC</text>
+        <!-- Name on card -->
+        <text x="20" y="232" font-size="12" font-weight="500" fill="#1A1A1A">Name on card</text>
+        <rect x="20" y="240" width="640" height="44" rx="6" fill="#FFFFFF" stroke="#D1D5DB"/>
+      </g>
+
+      <!-- Actions -->
+      <g id="Form-Actions" transform="translate(0,1130)">
+        <text x="0" y="18" font-size="14" fill="#2563EB">&#x2190; Return to cart</text>
+        <rect x="460" y="0" width="220" height="52" rx="6" fill="#111111"/>
+        <text x="570" y="31" font-size="15" font-weight="600" fill="#FFFFFF" text-anchor="middle">Complete order</text>
+      </g>
+    </g>
+
+    <!-- ===== Summary Column ===== -->
+    <g id="Summary-Column" transform="translate(808,136)">
+      <rect width="408" height="440" rx="10" fill="#FFFFFF" stroke="#E5E5E5"/>
+
+      <!-- Item 1 -->
+      <g id="Item-1" transform="translate(20,20)">
+        <rect width="56" height="56" rx="8" fill="#E5E7EB"/>
+        <circle cx="50" cy="6" r="10" fill="#6B7280"/>
+        <text x="50" y="10" font-size="11" font-weight="600" fill="#FFFFFF" text-anchor="middle">2</text>
+        <text x="76" y="22" font-size="14" font-weight="500" fill="#1A1A1A">Merino Crew Sweater</text>
+        <text x="76" y="42" font-size="12" fill="#6B7280">Heather Grey / M</text>
+        <text x="348" y="22" font-size="14" font-weight="500" fill="#1A1A1A" text-anchor="end">$120.00</text>
+      </g>
+
+      <!-- Item 2 -->
+      <g id="Item-2" transform="translate(20,90)">
+        <rect width="56" height="56" rx="8" fill="#E5E7EB"/>
+        <circle cx="50" cy="6" r="10" fill="#6B7280"/>
+        <text x="50" y="10" font-size="11" font-weight="600" fill="#FFFFFF" text-anchor="middle">1</text>
+        <text x="76" y="22" font-size="14" font-weight="500" fill="#1A1A1A">Canvas Tote Bag</text>
+        <text x="76" y="42" font-size="12" fill="#6B7280">Natural</text>
+        <text x="348" y="22" font-size="14" font-weight="500" fill="#1A1A1A" text-anchor="end">$44.00</text>
+      </g>
+
+      <!-- Promo code -->
+      <g id="Promo-Code" transform="translate(20,166)">
+        <rect width="286" height="42" rx="6" fill="#FFFFFF" stroke="#D1D5DB"/>
+        <text x="12" y="26" font-size="14" fill="#9CA3AF">Discount code</text>
+        <rect x="298" y="0" width="70" height="42" rx="6" fill="#FFFFFF" stroke="#D1D5DB"/>
+        <text x="333" y="26" font-size="14" font-weight="500" fill="#1A1A1A" text-anchor="middle">Apply</text>
+      </g>
+
+      <!-- Divider -->
+      <line x1="20" y1="230" x2="388" y2="230" stroke="#E5E5E5"/>
+
+      <!-- Totals -->
+      <g id="Totals" transform="translate(20,248)">
+        <text x="0" y="0" font-size="14" fill="#6B7280">Subtotal</text>
+        <text x="348" y="0" font-size="14" font-weight="500" fill="#1A1A1A" text-anchor="end">$164.00</text>
+        <text x="0" y="30" font-size="14" fill="#6B7280">Shipping</text>
+        <text x="348" y="30" font-size="14" font-weight="500" fill="#1A1A1A" text-anchor="end">Free</text>
+        <text x="0" y="60" font-size="14" fill="#6B7280">Tax</text>
+        <text x="348" y="60" font-size="14" font-weight="500" fill="#1A1A1A" text-anchor="end">$20.00</text>
+        <!-- Grand total divider -->
+        <line x1="0" y1="80" x2="368" y2="80" stroke="#E5E5E5"/>
+        <text x="0" y="110" font-size="17" font-weight="700" fill="#1A1A1A">Total</text>
+        <text x="298" y="110" font-size="12" fill="#6B7280" text-anchor="end">USD</text>
+        <text x="348" y="110" font-size="17" font-weight="700" fill="#1A1A1A" text-anchor="end">$184.00</text>
+      </g>
+    </g>
+
+    <!-- Footer -->
+    <g id="Footer-Desktop">
+      <line x1="0" y1="1390" x2="1280" y2="1390" stroke="#E5E5E5"/>
+      <rect y="1390" width="1280" height="50" fill="#FFFFFF"/>
+      <text x="64" y="1420" font-size="12" fill="#6B7280">&#169; 2026 North&amp;Co · Refund policy · Privacy · Terms</text>
+    </g>
+  </g>
+
+  <!-- ============================================ -->
+  <!-- MOBILE FRAME — 390 x 1440                    -->
+  <!-- ============================================ -->
+  <g id="Mobile-Checkout-390" transform="translate(1330,0)">
+    <rect width="390" height="1440" rx="8" fill="#F7F7F5"/>
+
+    <!-- Header -->
+    <g id="Header-Mobile">
+      <rect width="390" height="56" fill="#FFFFFF"/>
+      <line x1="0" y1="56" x2="390" y2="56" stroke="#E5E5E5"/>
+      <text x="20" y="34" font-size="12" font-weight="700" letter-spacing="2" fill="#1A1A1A">NORTH&amp;CO</text>
+      <g transform="translate(310,20)" fill="none" stroke="#6B7280" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="0" y="6" width="12" height="8" rx="1.5"/>
+        <path d="M2.5 6V4a3.5 3.5 0 0 1 7 0v2"/>
+      </g>
+      <text x="328" y="33" font-size="10" fill="#6B7280">Secure</text>
+    </g>
+
+    <!-- Summary Toggle (collapsed view) -->
+    <g id="Summary-Toggle-Mobile" transform="translate(0,56)">
+      <rect width="390" height="50" fill="#FFFFFF"/>
+      <line x1="0" y1="50" x2="390" y2="50" stroke="#E5E5E5"/>
+      <text x="20" y="31" font-size="14" font-weight="500" fill="#1A1A1A">Show order summary &#x25BE;</text>
+      <text x="370" y="31" font-size="14" font-weight="600" fill="#1A1A1A" text-anchor="end">$184.00</text>
+    </g>
+
+    <!-- Stepper Mobile -->
+    <g id="Stepper-Mobile" transform="translate(20,126)">
+      <circle cx="12" cy="10" r="10" fill="#16A34A"/>
+      <text x="12" y="14" font-size="9" font-weight="600" fill="#fff" text-anchor="middle">1</text>
+      <line x1="28" y1="10" x2="56" y2="10" stroke="#D1D5DB"/>
+      <circle cx="68" cy="10" r="10" fill="#111111"/>
+      <text x="68" y="14" font-size="9" font-weight="600" fill="#fff" text-anchor="middle">2</text>
+      <line x1="84" y1="10" x2="112" y2="10" stroke="#D1D5DB"/>
+      <circle cx="124" cy="10" r="10" fill="none" stroke="#D1D5DB"/>
+      <text x="124" y="14" font-size="9" font-weight="600" fill="#6B7280" text-anchor="middle">3</text>
+      <line x1="140" y1="10" x2="168" y2="10" stroke="#D1D5DB"/>
+      <circle cx="180" cy="10" r="10" fill="none" stroke="#D1D5DB"/>
+      <text x="180" y="14" font-size="9" font-weight="600" fill="#6B7280" text-anchor="middle">4</text>
+      <!-- Labels -->
+      <text x="12" y="32" font-size="10" fill="#6B7280" text-anchor="middle">Cart</text>
+      <text x="68" y="32" font-size="10" font-weight="600" fill="#1A1A1A" text-anchor="middle">Info</text>
+      <text x="124" y="32" font-size="10" fill="#6B7280" text-anchor="middle">Pay</text>
+      <text x="180" y="32" font-size="10" fill="#6B7280" text-anchor="middle">Review</text>
+    </g>
+
+    <!-- Form Column Mobile -->
+    <g id="Form-Column-Mobile" transform="translate(12,176)">
+
+      <!-- Contact Card -->
+      <g id="Card-Contact-Mobile">
+        <rect width="366" height="140" rx="10" fill="#FFFFFF" stroke="#E5E5E5"/>
+        <text x="16" y="30" font-size="14" font-weight="600" fill="#1A1A1A">Contact</text>
+        <text x="16" y="56" font-size="11" font-weight="500" fill="#1A1A1A">Email</text>
+        <rect x="16" y="62" width="334" height="40" rx="6" fill="#FFFFFF" stroke="#D1D5DB"/>
+        <text x="28" y="87" font-size="13" fill="#9CA3AF">you@example.com</text>
+        <rect x="16" y="114" width="12" height="12" rx="3" fill="#111111"/>
+        <text x="36" y="125" font-size="11" fill="#6B7280">Email me with news and offers</text>
+      </g>
+
+      <!-- Shipping Address Mobile -->
+      <g id="Card-Shipping-Mobile" transform="translate(0,156)">
+        <rect width="366" height="430" rx="10" fill="#FFFFFF" stroke="#E5E5E5"/>
+        <text x="16" y="30" font-size="14" font-weight="600" fill="#1A1A1A">Shipping address</text>
+        <!-- First name (full width on mobile) -->
+        <text x="16" y="58" font-size="11" font-weight="500" fill="#1A1A1A">First name</text>
+        <rect x="16" y="64" width="334" height="40" rx="6" fill="#FFFFFF" stroke="#D1D5DB"/>
+        <!-- Last name (full width on mobile) -->
+        <text x="16" y="120" font-size="11" font-weight="500" fill="#1A1A1A">Last name</text>
+        <rect x="16" y="126" width="334" height="40" rx="6" fill="#FFFFFF" stroke="#D1D5DB"/>
+        <!-- Address -->
+        <text x="16" y="182" font-size="11" font-weight="500" fill="#1A1A1A">Address</text>
+        <rect x="16" y="188" width="334" height="40" rx="6" fill="#FFFFFF" stroke="#D1D5DB"/>
+        <!-- City (full width) -->
+        <text x="16" y="244" font-size="11" font-weight="500" fill="#1A1A1A">City</text>
+        <rect x="16" y="250" width="334" height="40" rx="6" fill="#FFFFFF" stroke="#D1D5DB"/>
+        <!-- State / ZIP stacked side by side -->
+        <text x="16" y="306" font-size="11" font-weight="500" fill="#1A1A1A">State</text>
+        <rect x="16" y="312" width="160" height="40" rx="6" fill="#FFFFFF" stroke="#D1D5DB"/>
+        <text x="28" y="337" font-size="13" fill="#9CA3AF">Select</text>
+        <text x="190" y="306" font-size="11" font-weight="500" fill="#1A1A1A">ZIP</text>
+        <rect x="190" y="312" width="160" height="40" rx="6" fill="#FFFFFF" stroke="#D1D5DB"/>
+        <!-- Phone -->
+        <text x="16" y="370" font-size="11" font-weight="500" fill="#1A1A1A">Phone <tspan fill="#6B7280" font-weight="400">(optional)</tspan></text>
+        <rect x="16" y="376" width="334" height="40" rx="6" fill="#FFFFFF" stroke="#D1D5DB"/>
+      </g>
+
+      <!-- Shipping Method Mobile -->
+      <g id="Card-Ship-Method-Mobile" transform="translate(0,602)">
+        <rect width="366" height="200" rx="10" fill="#FFFFFF" stroke="#E5E5E5"/>
+        <text x="16" y="30" font-size="14" font-weight="600" fill="#1A1A1A">Shipping method</text>
+        <!-- Option 1 -->
+        <rect x="16" y="44" width="334" height="44" rx="6" fill="#FAFAFA" stroke="#111111"/>
+        <circle cx="36" cy="66" r="6" fill="none" stroke="#111111" stroke-width="1.5"/>
+        <circle cx="36" cy="66" r="3" fill="#111111"/>
+        <text x="52" y="70" font-size="12" fill="#1A1A1A">Standard · 3–5 days</text>
+        <text x="334" y="70" font-size="12" fill="#6B7280" text-anchor="end">Free</text>
+        <!-- Option 2 -->
+        <rect x="16" y="98" width="334" height="44" rx="6" fill="#FFFFFF" stroke="#D1D5DB"/>
+        <circle cx="36" cy="120" r="6" fill="none" stroke="#D1D5DB" stroke-width="1.5"/>
+        <text x="52" y="124" font-size="12" fill="#1A1A1A">Express · 2 days</text>
+        <text x="334" y="124" font-size="12" fill="#6B7280" text-anchor="end">$12.00</text>
+        <!-- Option 3 -->
+        <rect x="16" y="152" width="334" height="44" rx="6" fill="#FFFFFF" stroke="#D1D5DB"/>
+        <circle cx="36" cy="174" r="6" fill="none" stroke="#D1D5DB" stroke-width="1.5"/>
+        <text x="52" y="178" font-size="12" fill="#1A1A1A">Overnight · Next day</text>
+        <text x="334" y="178" font-size="12" fill="#6B7280" text-anchor="end">$24.00</text>
+      </g>
+
+      <!-- Payment Mobile -->
+      <g id="Card-Payment-Mobile" transform="translate(0,818)">
+        <rect width="366" height="290" rx="10" fill="#FFFFFF" stroke="#E5E5E5"/>
+        <text x="16" y="30" font-size="14" font-weight="600" fill="#1A1A1A">Payment</text>
+        <text x="16" y="48" font-size="11" fill="#6B7280">All transactions are secure and encrypted.</text>
+        <!-- Card number -->
+        <text x="16" y="74" font-size="11" font-weight="500" fill="#1A1A1A">Card number</text>
+        <rect x="16" y="80" width="334" height="40" rx="6" fill="#FFFFFF" stroke="#D1D5DB"/>
+        <text x="28" y="105" font-size="13" fill="#9CA3AF">1234 5678 9012 3456</text>
+        <!-- Exp / CVC -->
+        <text x="16" y="138" font-size="11" font-weight="500" fill="#1A1A1A">Exp (MM/YY)</text>
+        <rect x="16" y="144" width="160" height="40" rx="6" fill="#FFFFFF" stroke="#D1D5DB"/>
+        <text x="28" y="169" font-size="13" fill="#9CA3AF">MM/YY</text>
+        <text x="190" y="138" font-size="11" font-weight="500" fill="#1A1A1A">CVC</text>
+        <rect x="190" y="144" width="160" height="40" rx="6" fill="#FFFFFF" stroke="#D1D5DB"/>
+        <text x="202" y="169" font-size="13" fill="#9CA3AF">CVC</text>
+        <!-- Name on card -->
+        <text x="16" y="202" font-size="11" font-weight="500" fill="#1A1A1A">Name on card</text>
+        <rect x="16" y="208" width="334" height="40" rx="6" fill="#FFFFFF" stroke="#D1D5DB"/>
+        <!-- Button full width on mobile -->
+        <rect x="16" y="260" width="334" height="48" rx="6" fill="#111111"/>
+        <text x="183" y="289" font-size="14" font-weight="600" fill="#FFFFFF" text-anchor="middle">Complete order</text>
+      </g>
+
+      <!-- Return link (below button on mobile) -->
+      <text x="183" y="1134" font-size="13" fill="#2563EB" text-anchor="middle">&#x2190; Return to cart</text>
+    </g>
+
+    <!-- Footer Mobile -->
+    <g id="Footer-Mobile">
+      <line x1="0" y1="1390" x2="390" y2="1390" stroke="#E5E5E5"/>
+      <rect y="1390" width="390" height="50" fill="#FFFFFF"/>
+      <text x="20" y="1420" font-size="10" fill="#6B7280">&#169; 2026 North&amp;Co · Refund policy · Privacy · Terms</text>
+    </g>
+  </g>
+
+  <!-- Frame Labels -->
+  <text x="640" y="1470" font-size="16" font-weight="600" fill="#9CA3AF" text-anchor="middle">Desktop · 1280px</text>
+  <text x="1525" y="1470" font-size="16" font-weight="600" fill="#9CA3AF" text-anchor="middle">Mobile · 390px</text>
+</svg>
